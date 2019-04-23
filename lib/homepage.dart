@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:dscnewsapp/binary.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -33,6 +34,7 @@ class _HomeState extends State<Home> {
           
          itemBuilder: (_, int index)=>listDataItem(this.listof[index],),
          itemCount: this.listof.length,
+         
          
        ),
        ),       

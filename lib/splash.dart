@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dscnewsapp/homepage.dart';
-import 'package:dscnewsapp/binary.dart';
+
 
 class MyApp extends StatelessWidget {
   @override
